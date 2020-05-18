@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Blue
+  - Green
+  - Orange
+  - Purple
+  - Red
+  - Yellow
+  - BlueDoor
+  - GreenDoor
+  - OrangeDoor
+  - PurpleDoor
+  - RedDoor
+  - YellowDoor
+  - BlackDoor
+  - Black
+  - KeyDoor
+  - Key
+  - Silver
+  - SilverDoor
+  - Win
+  - WinCamera
+  - LoseCamera
+  - StartMenu
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
