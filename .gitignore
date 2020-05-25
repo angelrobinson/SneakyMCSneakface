@@ -1,0 +1,13 @@
+*.suo
+*.info
+*.resource
+*.bin
+*.cache
+*.dll
+*.mdb
+*.stamp
+*.dwlt
+*.asset
+*.txt
+*.log
+Library/
