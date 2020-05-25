@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 	void Awake()
 	{
 		instance = this;
+		DontDestroyOnLoad(this);
 	}
 
 	// Use this for initialization
@@ -34,9 +35,10 @@ public class GameManager : MonoBehaviour
 		pickedUp = capsule= isPurple = false;
 		respawn = GetComponent <Transform> ();
 		lives = 3;
-		fps = GetComponent<Camera> ();
-		winner = GetComponent<Camera> ();
-		loser = GetComponent<Camera> ();
+
+		fps = GameObject.Find("FirstPersonCharacter").GetComponent<Camera> ();
+		winner = GameObject.Find("WinScreen").GetComponent<Camera> ();
+		loser = GameObject.Find("LoserScreen").GetComponent<Camera> ();
 
 
 		//disableCamera (fps);
